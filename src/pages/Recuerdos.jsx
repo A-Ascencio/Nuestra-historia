@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import Modal from "../components/Modal";
-import useMemories from "../hooks/Usememories";
+import useMemories from "../hooks/useMemories";
 import { Camera } from "lucide-react";
 
 export default function Recuerdos({ open, onClose }) {
